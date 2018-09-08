@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Main.css">
+  <script src="New.js" charset="utf-8"></script>
+  <title>Task-1</title>
+</head>
+<body>
+  <div class="main">
+  <div class="container">
+    <h2>New Form</h2>
+    <p>Fill the form</p>
+
+     <form onsubmit="return validate(this)" >
+      <div class="row">
+        <div class="row-1">
+          <label for="Name">Name</label>
+        </div>
+        <div class="row-2">
+          <input type="text" id="name" size="40" name="yourname" />
+
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="row-1">
+          <label for="Email">Email</label>
+        </div>
+        <div class="row-2">
+          <input type="text" id="email" size="40" name="myemail" />
+
+        </div>
+      </div>
+      <hr>
+
+      <div class="row">
+        <div class="row-1">
+          <label for="Phoneno">Phone</label>
+        </div>
+        <div class="row-2">
+          <input type="text" id="phone" size="15" name="yourphone" />
+
+        </div>
+      </div>
+      <hr>
+
+      <div class="row" style="text-align: center;">
+        <input type="submit" id="submit" value="submit" />
+        <input type="reset" />
+        <input type="submit" onclick="dave()" value="save" style="display:none;" id="save"/>
+
+      </div>
+
+    </form>
+
+
+   </div>
+  </div>
+
+  <table id="table">
+  <tr>
+    <th>Name</th>
+    <th>Email ID</th>
+    <th>Phone</th>
+    <th>Operations</th>
+  </tr>
+  <tbody id="tbodyy">
+</tbody>
+</table>
+
+</body>
+</html>
